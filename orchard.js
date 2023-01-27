@@ -239,19 +239,19 @@ console.log(pinkPounds)
 // const pinkPrice = .55
 
 
-let fujiProfit = 0
-let galaProfit = 0
-let pinkProfit = 0
 
-for(i = 0; i < fujiPounds.length; i++){
-    fujiPounds[i] = fujiPounds[i] * 1.89
-    fujiProfit += fujiPounds
-}
-console.log(fujiProfit)
+let fujiProfit = fujiPounds
+let galaProfit = galaPounds
+let pinkProfit = pinkPounds
 
+fujiProfit = fujiPounds * fujiPrice
+console.log(`The fuji apples profited ${fujiProfit} dollars`)
 
+galaProfit = galaPounds * galaPrice
+console.log(`The gala apples profited ${galaProfit} dollars`)
 
-
+pinkProfit = pinkPounds * pinkPrice
+console.log(`The pink apples profited ${pinkProfit} dollars`)
 
 // PROBLEM 7
 
@@ -264,3 +264,5 @@ console.log(fujiProfit)
 */
 
 // CODE HERE
+let totalProfit = fujiProfit + galaProfit + pinkProfit
+console.log(`This is the total profit ${totalProfit} dollars`)
