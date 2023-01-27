@@ -155,15 +155,15 @@ let pinkTons = pinkAcres.slice()
 
 for(i = 0; i < fujiTons.length; i++){
     fujiTons[i] = fujiTons[i] *6.5
-    console.log(fujiTons[i])
+    console.log(fujiTons)
 }
 for(i = 0; i < galaTons.length; i++){
     galaTons[i] = galaTons[i] * 6.5
-    console.log(galaTons[i])
+    console.log(galaTons)
 }
 for(i = 0; i < pinkTons.length; i++){
     pinkTons[i] = pinkTons[i] * 6.5
-    console.log(pinkTons[i])
+    console.log(pinkTons)
 }
     
 
